@@ -1,0 +1,16 @@
+//check palindrome
+
+
+var str = "abc";
+var fladg = true;
+for(var i=0;i<str.length;i++){
+  var a =str.length-1;
+  if(str[i]==str[a]){
+   flag = true;
+  }
+  else {flag = false;
+      }
+  a--;
+}
+if(flag ){console.log("palindrome")}
+else {console.log("no")}
